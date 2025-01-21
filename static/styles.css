@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 20px auto;
+    display: inline-block;
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+}
+
+#weatherInfo {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #6A0DAD;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a0c9a;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+.feedback-container {
+  margin: 20px auto;
+    display: inline-block;
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 400px;
+}
+
+.feedback-container h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.radio-group label {
+    margin: 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.radio-group input {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+form button {
+    background-color: #6A0DAD;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #5a0c9a;
+}

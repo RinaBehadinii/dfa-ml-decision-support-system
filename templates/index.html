@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFA-Centered Outfit Selector</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<h1>Outfit Selector Using DFA</h1>
+<div class="container">
+    <div id="weatherInfo">Fetching current weather...</div>
+    <button id="recommendButton" disabled>Get Outfit Recommendation</button>
+</div>
+<div id="result"></div>
+
+<form id="feedbackForm" style="display:none;">
+    <div class="feedback-container">
+        <h3>Provide Feedback</h3>
+        <input type="hidden" id="top" name="top">
+        <input type="hidden" id="bottom" name="bottom">
+        <input type="hidden" id="outerwear" name="outerwear">
+        <div class="radio-group">
+            <label>
+                <input type="radio" name="feedback" value="like" required> Like
+            </label>
+            <label>
+                <input type="radio" name="feedback" value="dislike" required> Dislike
+            </label>
+        </div>
+        <button type="submit">Submit Feedback</button>
+    </div>
+</form>
+<script src="/static/script.js"></script>
+</body>
+</html>
